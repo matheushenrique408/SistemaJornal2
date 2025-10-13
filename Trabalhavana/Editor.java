@@ -27,8 +27,9 @@ class Editor extends Pessoa{
 
     @Override
     public void exibirPerfil(){
-        System.out.println("Nome"+ getNome());
-        System.out.println("Idade"+ getIdade());
-        System.out.println("Nome"+ getSetor());
+        System.out.println("Nome: "+ getNome());
+        System.out.println("Idade: "+ getIdade());
+        System.out.println("Setor: "+ getSetor());
     }
+
 }
