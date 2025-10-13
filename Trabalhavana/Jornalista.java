@@ -30,8 +30,9 @@ class Jornalista extends Pessoa{
 
     @Override
     public void exibirPerfil(){
-        System.out.println("Nome"+ getNome());
-        System.out.println("Idade"+ getIdade());
-        System.out.println("Especialidade"+ getEspecialidade());
+        System.out.println("Nome: "+ getNome());
+        System.out.println("Idade: "+ getIdade());
+        System.out.println("Especialidade: "+ getEspecialidade());
     }
+
 }
